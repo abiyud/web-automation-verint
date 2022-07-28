@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.verint.web.driver.DriverUtill;
 
-public class WebKeyword extends DriverUtill{
+public class WebKeyword extends DriverUtill {
 	protected int defaultTimeOut = 15;
 	private WebDriverWait wait;
 
@@ -27,12 +27,12 @@ public class WebKeyword extends DriverUtill{
 	public void closeBrowser() {
 		driver.quit();
 	}
-	
+
 	public void navigateTo(String url) {
 		driver.get(url);
 		driver.manage().window().maximize();
 	}
-	
+
 	public void delay(int time) {
 		driver.manage().timeouts().implicitlyWait(time, TimeUnit.SECONDS);
 	}
