@@ -32,8 +32,7 @@ public class WebKeyword extends DriverUtill {
 		driver.get(url);
 		driver.manage().window().maximize();
 	}
-
-	//function to delay 
+ 
 	public void delay(int time) {
 		driver.manage().timeouts().implicitlyWait(time, TimeUnit.SECONDS);
 	}
