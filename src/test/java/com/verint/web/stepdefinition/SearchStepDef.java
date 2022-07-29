@@ -1,4 +1,4 @@
-package com.verint.web.stepdefitinions;
+package com.verint.web.stepdefinition;
 
 import java.util.List;
 

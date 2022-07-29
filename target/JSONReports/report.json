@@ -1,0 +1,101 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-29T00:50:36.505Z",
+        "line": 14,
+        "name": "Search customer solution",
+        "description": "",
+        "id": "search-on-home-page-verint.com;search-customer-solution;;2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4373991200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user open verint website",
+            "match": {
+              "location": "com.verint.web.stepdefinition.SearchStepDef.user_open_verint_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 267809900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click button search",
+            "match": {
+              "location": "com.verint.web.stepdefinition.SearchStepDef.click_button_search()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 770190900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user search customer solution",
+            "match": {
+              "arguments": [
+                {
+                  "val": "customer solution",
+                  "offset": 12
+                }
+              ],
+              "location": "com.verint.web.stepdefinition.SearchStepDef.user_search(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11295971800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "page shows articles contain customer solution",
+            "match": {
+              "arguments": [
+                {
+                  "val": "customer solution",
+                  "offset": 28
+                }
+              ],
+              "location": "com.verint.web.stepdefinition.SearchStepDef.page_shows_articles_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Search"
+          },
+          {
+            "name": "@Positive"
+          }
+        ]
+      }
+    ],
+    "name": "Search on home page Verint.com",
+    "description": "  As a user, i want to search articles or news on home page",
+    "id": "search-on-home-page-verint.com",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Search.feature",
+    "tags": [
+      {
+        "name": "@Search",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
