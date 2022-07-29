@@ -9,6 +9,9 @@ This is an automation web Verint using Selenium Java and Cucumber
 
 ## How To Run
 1. Clone this repository to your folder
+```shell
+$ git clone https://github.com/abiyud/web-automation-verint.git
+```
 2. Run the test in folder with this command
 ```shell
 $ mvn clean install

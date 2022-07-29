@@ -1,5 +1,0 @@
-com\verint\web\driver\DriverUtill.class
-com\verint\web\keyword\WebKeyword.class
-com\verint\web\pageobject\HomePage.class
-com\verint\web\stepdefinition\SearchStepDef.class
-com\verint\web\stepdefinition\TestRunner.class
